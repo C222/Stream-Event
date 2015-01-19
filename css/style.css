@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto|Special+Elite);
+
+html
+{
+	height: 100%;
+	/*min-height: 100%;*/
+}
+
+body
+{
+	background: #F3DCB9;
+	background-image: url("../img/lightpaperfibers.png");
+	height: 100%;
+	color: #242019;
+	border-color: #242019;
+	/*min-height: 100%;*/
+	overflow-y:hidden;
+}
+body, h1, h2, h3, h4, p
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+h1
+{
+	font-family: 'Special Elite', sans-serif;
+}
+h2, h3, h4
+{
+	font-family: 'Roboto', sans-serif;
+}
+p
+{
+	
+}
+#top
+{
+	background: #8F663B;
+	height: 100px;
+}
+#banner
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 5em;
+	color: #280101;
+	padding-top: 15px;
+}
+
+#content
+{
+	padding: 0;
+	float: left;
+	position:absolute;
+	top:100px;
+	left:301px;
+}
+#content h1
+{
+	text-align: center;
+}
+div.third
+	{
+	width: 33%;
+	float: left;
+	}
+
+.icon
+{
+	width: 32px;
+	height: 32px;
+}
+
+#leftbar
+{
+	margin: 0;
+	padding: 0;
+	position:absolute;
+	top:100px;
+	left:0;
+	bottom:0;
+	background-color: #F1D9BA;
+	width: 300px;
+	float: left;
+	border-right: 1px solid #000000;
+	height: 100%;
+	min-height: 100%;
+	overflow-y:auto;
+}
+
+#leftbar>img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.channel
+{
+	height: 50px;
+	margin: 0;
+	padding: 2px;
+	border-bottom: 1px solid #000000;
+	overflow: hidden;
+}
+
+.channel img
+{
+	float:left;
+}
+
+.channel .rightside
+{
+	padding: 2px;
+	float:left;
+	width: 175px;
+	font-size: 75%;
+}
+
+.channel .rightside .title
+{
+	font-size: 110%;
+	font-weight: bold;
+	color: #280101;
+}
+
+.multi
+{
+	position:relative;
+	z-index: 1;
+	top: -47px;
+	left: 250px;
+	/*width:0;height:0;*/padding:0;margin:0;
+	display:flex;
+}
+
+/*@media (min-width: 800)
+{
+	div.third
+		{
+		width: 33%;
+		float: left;
+		}
+}
+@media (max-width: 799)
+{
+	div.third
+		{
+		width: 100%;
+		float: none;
+		}
+}*/
